@@ -13,41 +13,39 @@ public class Main {
 
         System.out.println("Задание №2");
 
-        System.out.print(x[0] + ", ");
-        System.out.print(x[1] + ", ");
-        System.out.print(x[2]);
-        System.out.println();
-        System.out.print(y[0] + ", ");
-        System.out.print(y[1] + ", ");
-        System.out.print(y[2]);
-        System.out.println();
-        System.out.print(z[0] + ", ");
-        System.out.print(z[1] + ", ");
-        System.out.print(z[2] + ", ");
-        System.out.print(z[3] + ", ");
-        System.out.print(z[4]);
+        for (int i = 0; i < x.length; i++) {
+            System.out.print(x[i] + ", ");
+        }
         System.out.println();
 
+        for (int i = 0; i < y.length; i++) {
+            System.out.print(y[i] + ", ");
+        }
         System.out.println();
+
+        for (int i = 0; i < z.length; i++) {
+            System.out.print(z[i] + ", ");
+        }
+        System.out.println();
+        System.out.println();
+
         System.out.println("Задание №3");
-        System.out.print(x[2] + ", ");
-        System.out.print(x[1] + ", ");
-        System.out.print(x[0]);
+        for (int i = x.length - 1; i >= 0; i--) {
+            System.out.print(x[i] + ", ");
+        }
         System.out.println();
-        System.out.print(y[2] + ", ");
-        System.out.print(y[1] + ", ");
-        System.out.print(y[0]);
+        for (int i = y.length - 1; i >= 0; i--) {
+            System.out.print(y[i] + ", ");
+        }
         System.out.println();
-        System.out.print(z[4] + ", ");
-        System.out.print(z[3] + ", ");
-        System.out.print(z[2] + ", ");
-        System.out.print(z[1] + ", ");
-        System.out.print(z[0]);
+        for (int i = z.length - 1; i >= 0; i--) {
+            System.out.print(z[i] + ", ");
+        }
+
         System.out.println();
-        System.out.println();
-        System.out.println("Задание №4");
         System.out.println();
 
+        System.out.println("Задание №4");
         for (int i = 0; i < x.length; i++){
             if (x[i] % 2 == 0) {
                 System.out.print(x[i] + " ");
